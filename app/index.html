@@ -1,0 +1,29 @@
+<html>
+  <head>
+    <title>Browsersync iframe Issue</title>
+    <link rel="stylesheet" href="styles.css"></styles>
+  </head>
+  <body>
+    <h1>Browsersync iframe Issue</h1>
+    <h2>Issue</h2>
+    <p>
+     When hosted by Browsersync, <code>&lt;a&gt;</code> tags with a <code>&lt;target&gt;</code> attribute linking to an <code>&lt;iframe&gt;</code> element now open in new tab. 
+     They should open in the linked <code>&lt;iframe&gt;</code> instead.<br/>
+     Ex: <code>&lt;a href="page1.html" target="main"&gt;load page 1&lt;/a&gt;</code>
+    </p>
+
+    <h2>Expected behavior</h2>
+    <p>
+      The links below should force page 1 and 2 to be shown within the iframe content.  Run the content locally to verify.
+    </p>
+    <h2>Observed behavior in Browsersync</h2>
+    <p>
+      Links pop open in new tabs. This was not true of previous Browsersync versions.
+    </p>
+    
+    <iframe src="intro.html" id="name" name="main"></iframe></br>
+    <a href="page1.html" target="main">load page 1</a>
+    <a href="page2.html" target="main">load page 2</a>
+    
+  </body>
+</html>

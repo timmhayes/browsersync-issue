@@ -1,0 +1,15 @@
+{
+  "name": "browsersync-issue",
+  "version": "1.0.0",
+  "description": "Repo to show iframe error on Browsersync",
+  "main": "index.js",
+  "scripts": {
+    "start": "gulp"
+  },
+  "author": "Tim Hayes",
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "^2.7.13",
+    "gulp": "^3.9.0"
+  }
+}

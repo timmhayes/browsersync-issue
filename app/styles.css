@@ -1,0 +1,36 @@
+html {
+  font-family: sans-serif;
+}
+
+h1, h2 {
+  color: slateblue;
+}
+
+h1 {
+  font-size: 140%;
+}
+
+h2 {
+  font-size: 120%;
+}
+
+p {
+  border-left: 3px slateblue solid;
+  padding: 5px;
+  margin-left: 20px
+}
+
+code {
+  background-color: #ddd;
+  padding: 2px;
+  line-height: 2em;
+}
+
+ol {
+  padding-left: 30px;
+}
+
+iframe {
+  width: 100%;
+  height
+}
